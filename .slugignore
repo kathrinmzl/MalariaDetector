@@ -1,0 +1,8 @@
+*.pyc
+__pycache__/
+*.ipynb
+data/
+models/
+venv/
+.git/
+.vscode/
