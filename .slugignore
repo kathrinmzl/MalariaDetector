@@ -5,6 +5,8 @@ venv/
 # datasets & artifacts
 data/
 datasets/
+inputs/
+outputs/
 **/*.csv
 **/*.tsv
 **/*.parquet
@@ -20,7 +22,7 @@ models/
 **/*.pickle
 
 # dev-only
-notebooks/
+jupyter_notebooks/
 tests/
 docs/
 examples/
