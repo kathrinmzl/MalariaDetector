@@ -1,8 +1,39 @@
-*.pyc
-__pycache__/
-*.ipynb
-data/
-models/
 venv/
 .git/
 .vscode/
+
+# datasets & artifacts
+data/
+datasets/
+**/*.csv
+**/*.tsv
+**/*.parquet
+**/*.npy
+**/*.npz
+checkpoints/
+models/
+**/*.pt
+**/*.pth
+**/*.h5
+**/*.onnx
+**/*.joblib
+**/*.pickle
+
+# dev-only
+notebooks/
+tests/
+docs/
+examples/
+benchmarks/
+*.ipynb
+
+# caches
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# node noise (if present)
+node_modules/
+*.map
