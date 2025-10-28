@@ -1,4 +1,4 @@
-venv/
+<!-- venv/
 .git/
 .vscode/
 
@@ -6,7 +6,6 @@ venv/
 data/
 datasets/
 inputs/
-outputs/
 **/*.csv
 **/*.tsv
 **/*.parquet
@@ -26,9 +25,9 @@ jupyter_notebooks/
 tests/
 docs/
 examples/
-benchmarks/
+benchmarks/ -->
 *.ipynb
-
+<!-- 
 # caches
 __pycache__/
 **/__pycache__/
@@ -38,4 +37,4 @@ __pycache__/
 
 # node noise (if present)
 node_modules/
-*.map
+*.map -->
